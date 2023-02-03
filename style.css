@@ -1,0 +1,112 @@
+/*
+Theme Name: Custom Theme
+Author: Christine Bai
+Description: THis is my theme
+Version: 1:00:00
+Tags: black, white, one-column, responsive |  two-columns, featured images, custom-theme, custom-header, custom-sidebar, custom-footer, post-formats
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header {
+	display: flex;
+    padding: 20px 0px ;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;    
+    margin: auto;
+}
+
+header h1 {
+	font-size: 28px;
+	margin: 0;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header nav a {
+	color: #fff;
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	background-color: #444;
+}
+
+
+#main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.novel {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.novel img {
+	width: 200px;
+	height: 300px;
+	margin-right: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 40px 0 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+img {
+	height: 125px;
+    width: 125px;
+}
+
+
+aside#sidebar {
+	background-color: #fff;
+	float: right;
+	width: 25%;
+	margin: 20px;
+	padding: 20px;
+}
+
+footer#footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+footer#footer a {
+	color: #fff;
+	text-decoration: none;
+}
